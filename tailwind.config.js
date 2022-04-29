@@ -46,7 +46,4 @@ module.exports = {
     },
   },
   plugins: [],
-  corePlugins: {
-    float: false
-  }
 };

@@ -47,7 +47,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Github](https://github.com/RifatdaM/base-apparel-coming-soon)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://626bc1ca2aa3bc725bfb021a--marvelous-manatee-f8d1e9.netlify.app/)
 
 ## My process
 

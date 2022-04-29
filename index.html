@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body class="font-josefin bg-cover">
+    <!-- logo -->
+    <img src="./img/logo.svg" alt="" class="p-8 lg:hidden" />
+    <div class="flex flex-col-reverse lg:flex-row">
+      <!-- content -->
+      <div
+        class="container bg-hero-pattern bg-no-repeat bg-cover flex-1 mx-auto h-screen pt-16"
+      >
+        <!-- logo -->
+        <img src="./img/logo.svg" alt="Logo" class="hidden lg:block" />
+        <!-- text -->
+        <div class="mt-8 lg:mt-36 text-center lg:text-left">
+          <!-- title text -->
+          <h1
+            class="flex flex-col font-semibold uppercase tracking-custom text-Neutral-DarkGrayishRed text-5xl lg:text-7xl"
+          >
+            <span class="text-Primary-DesaturatedRed font-light">We're</span>
+            <span>coming</span><span>soon</span>
+          </h1>
+          <!-- description text -->
+          <p class="font-normal text-Primary-DesaturatedRed text-lg mt-8">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+        </div>
+
+        <!-- input field -->
+        <form id="form" class="">
+          <div class="flex relative mt-8 mb-4">
+            <input
+              class="px-8 h-14 w-full outline-none border focus:border-2 focus:border-Primary-DesaturatedRed border-Primary-DesaturatedRed border-opacity-75 rounded-full placeholder:text-Primary-DesaturatedRed placeholder:text-opacity-70"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <img
+              src="./img/icon-error.svg"
+              alt=""
+              class="absolute warning top-4 right-28"
+            />
+            <button
+              type="submit"
+              class="h-14 px-8 lg:px-10 bg-gradient-to-r from-gradients-darkPinkFrom to-gradients-darkPinkTo hover:drop-shadow-4xl hover:to-gradients-lightPinkTo drop-shadow-2xl rounded-full absolute right-0"
+            >
+              <img src="./img/icon-arrow.svg" alt="" />
+            </button>
+          </div>
+          <small class="px-8 text-Primary-SoftRed warning"
+            >Please provide a valid email</small
+          >
+        </form>
+      </div>
+
+      <!-- Image -->
+      <div class="flex-initial">
+        <img
+          src="./img/hero-desktop.jpg"
+          alt=""
+          class="h-screen w-full hidden lg:block"
+        />
+        <img
+          src="./img/hero-mobile.jpg"
+          alt=""
+          class="block lg:hidden w-full"
+        />
+      </div>
+    </div>
+    
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.warning{
+    @apply hidden
+}
+form.error .warning{
+    @apply block
+}
+form.error input{
+    @apply border-2 border-Primary-SoftRed
+}
